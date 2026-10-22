@@ -22,7 +22,6 @@ assert text('branch', '--show-current') == 'finalpool'
 assert subprocess.call(['git', 'merge-base', '--is-ancestor', spec['base_sha'], 'HEAD']) == 0
 assert not text('status', '--porcelain')
 assert not Path('tasks/finalpool').exists()
-# Requirements are read from the committed example, not from task implementations.
 example = 'tasks/examples/example-task/'
 for relative in ['readme.txt', 'docs/task.md', 'docs/agent_system_prompt.md', 'docs/user_system_prompt.md', 'preprocess/main.py', 'evaluation/main.py', 'initial_workspace/readme.txt', 'groundtruth_workspace/readme.txt']:
     print('EXAMPLE_JSON:' + json.dumps({'path': example + relative, 'content': git('show', spec['base_sha'] + ':' + example + relative).decode('utf-8')}, ensure_ascii=True), flush=True)
@@ -53,7 +52,6 @@ for branch in spec['branches']:
     for name, path in new_paths:
         files = tree_files(sha, path)
         if name is None:
-            # The unnamed task is directly in the developer root; exclude sibling tasks.
             files = [p for p in files if p.split('/')[0] in reserved or '/' not in p]
         issues = []
         docs = {}
@@ -115,9 +113,9 @@ output.mkdir(parents=True, exist_ok=True)
 passed = sum(t['status'] == 'implemented' for t in audits)
 failed = len(audits) - passed
 (output / 'README.md').write_text('# Final task pool\n\n' + str(len(selected)) + ' implemented tasks selected from Task Tracker.\n\n## Selection\n\nAll previously implemented tasks are retained with their existing status. The newest untracked tasks across all 14 developer branches were checked against `tasks/examples`: ' + str(passed) + ' implemented and ' + str(failed) + ' implementing. Historical tasks were not reclassified.\n\nOnly explicit content requirements and required-file existence were checked. Optional preprocessing/evaluation scripts and workspace folders are not blockers; task code was not executed.\n\n## Provenance\n\n`manifest.json` records each task\'s source branch, pinned commit, source path, file count and Git tree hash. Every copied task directory is byte-for-byte identical to its source Git tree, including file modes. Tasks still implementing are excluded.\n', encoding='utf-8')
-subprocess.check_call(['git', 'add', '--', 'tasks/finalpool/manifest.json', 'tasks/finalpool/README.md'])
-# Remove this one-shot automation so only the requested final pool remains on the branch.
-subprocess.check_call(['git', 'rm', '--', '.github/workflows/finalpool-assemble.yml', '.github/finalpool-assemble.py', '.github/finalpool-selection.json'])
+subprocess.check_call(['git', 'add', '-f', '--', 'tasks/finalpool/manifest.json', 'tasks/finalpool/README.md'])
+# The caller removes the temporary automation via the GitHub API after verification.
+# This job only commits task content and does not require workflow-write permission.
 subprocess.check_call(['git', 'config', 'user.name', 'github-actions[bot]'])
 subprocess.check_call(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'])
 subprocess.check_call(['git', 'commit', '-m', 'Populate tasks/finalpool with implemented tasks from Task Tracker'])
