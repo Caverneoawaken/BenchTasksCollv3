@@ -1,0 +1,19 @@
+{
+  "base_sha": "6ac0348555050a99bcf4f08ff8bf920616482289",
+  "branches": [
+    {"branch":"fan-dev","folder":"fan","sha":"8b90f34538e4e106eba103265efaa9a456be498c","implemented":["coupon-manager","price-tracker"],"implementing":["wishlist-manager","shopping-cart","review-aggregator","product-comparator"]},
+    {"branch":"gyy","folder":"gyy","sha":"9612ffff37072726292c77df0f4c6db2f8df1bbb","implemented":["blog-engine","cms-builder","content-scheduler","social-publisher"],"implementing":["comment-moderator","seo-optimizer"]},
+    {"branch":"haoze","folder":"haoze","sha":"e0072cf979548c56984072cd76f529c7beea59b2","implemented":["video-trimmer","subtitle-generator"],"implementing":["audio-converter","thumbnail-creator","photo-editor"]},
+    {"branch":"jl_dev","folder":"jl","sha":"4e2b63f5dafce88b60886ed6e6af7bd9a8966296","implemented":["canvas-grade-automation","email-classification-system","pdf-report-generator"],"implementing":["weekly-expense-tracker","monthly-sales-analysis"]},
+    {"branch":"junteng_dev","folder":"junteng","sha":"4ab0c5415824d799c3457a26482f9b794c7e9e93","implemented":["booking-system","calendar-sync","contact-manager","shipment-tracker","reminder-service","product-catalog","order-processor"],"implementing":["inventory-tracker"]},
+    {"branch":"junxian_dev","folder":"junxian","sha":"96bbc11b6fc701d07d961aaf070c434fccd1794f","implemented":["translation-api","qr-generator"],"implementing":["barcode-scanner","location-tracker","weather-service","url-shortener"]},
+    {"branch":"lueyang-dev","folder":"lueyang","sha":"bf8b9a1d25edd81b158db0bb7f49d8624348e74d","implemented":["activity-logger","crm-system","deal-manager","email-campaign","follow-up-reminder","sales-pipeline"],"implementing":["lead-tracker","contact-scorer"]},
+    {"branch":"lv","folder":"lv","sha":"0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37","implemented":["chat-bot","voice-processor","feedback-collector","sentiment-analyzer","personalization-service"],"implementing":["recommendation-engine"]},
+    {"branch":"ruige","folder":"ruige","sha":"a6f3fba387f68acaf6517803e88b40a4a3c52658","implemented":["canvas-automation","data-analytics","expense-tracker","file-manager"],"implementing":["report-generator","pdf-processor"]},
+    {"branch":"wenshuo-dev","folder":"wenshuo","sha":"d11080ed8d65fb72eb32d9353cb20844b593f9e8","implemented":["image-processor","search-engine"],"implementing":["workflow-automation","document-parser","performance-monitor"]},
+    {"branch":"xiaochen_dev","folder":"xiaochen","sha":"20bfc73490dcf4029b92123b6055e076b7eb5dfa","implemented":["backup-utility","monitoring-agent","deployment-tool","error-tracker","security-scanner"],"implementing":["code-reviewer","migration-script","test-generator"]},
+    {"branch":"yuxuan-dev","folder":"yuxuan","sha":"e82c8295f9506ced6862ab7f39048a731b48beb4","implemented":["asset-optimizer","content-manager","task-scheduler","network-analyzer"],"implementing":["batch-processor","queue-manager"]},
+    {"branch":"yuzhen-dev","folder":"yuzhen","sha":"c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b","implemented":["alert-system","invoice-generator","data-validator","form-builder","permission-manager","payment-processor"],"implementing":["session-handler"]},
+    {"branch":"zhaochen","folder":"zhaochen","sha":"b5f9cc4f79bb9218e40c0293ab9ec4e90352a626","implemented":["load-balancer","template-engine"],"implementing":["api-tester","markdown-converter","proxy-server"]}
+  ]
+}
