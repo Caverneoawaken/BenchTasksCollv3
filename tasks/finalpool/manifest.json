@@ -1,0 +1,546 @@
+{
+  "source_base_sha": "6ac0348555050a99bcf4f08ff8bf920616482289",
+  "selection_policy": "Preserve all previously implemented Task Tracker tasks and add new tasks only if they satisfy tasks/examples. Do not reclassify historical tasks.",
+  "tasks": [
+    {
+      "name": "activity-logger",
+      "branch": "lueyang-dev",
+      "source_sha": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/activity-logger",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/activity-logger",
+      "source_tree_sha": "9c5eb809d6d7aa4a51a7b6b9e53c1dcac0d4bccd",
+      "file_count": 5
+    },
+    {
+      "name": "alert-system",
+      "branch": "yuzhen-dev",
+      "source_sha": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/alert-system",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/alert-system",
+      "source_tree_sha": "64a2df6f9d1c043ce3587c54406b424ee62feb35",
+      "file_count": 5
+    },
+    {
+      "name": "asset-optimizer",
+      "branch": "yuxuan-dev",
+      "source_sha": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/asset-optimizer",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/asset-optimizer",
+      "source_tree_sha": "56d4c49230462ee219c07582416a615024cbae5c",
+      "file_count": 5
+    },
+    {
+      "name": "backup-utility",
+      "branch": "xiaochen_dev",
+      "source_sha": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/backup-utility",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/backup-utility",
+      "source_tree_sha": "173bcbcce86dd288ebed057865251e1f3b3344cd",
+      "file_count": 4
+    },
+    {
+      "name": "blog-engine",
+      "branch": "gyy",
+      "source_sha": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/blog-engine",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/blog-engine",
+      "source_tree_sha": "7f3e73503fe06237410c1d74a9a3553da050813d",
+      "file_count": 6
+    },
+    {
+      "name": "booking-system",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/booking-system",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/booking-system",
+      "source_tree_sha": "f31abeb30b05363037b0f6897ec38ebcc879b2e9",
+      "file_count": 7
+    },
+    {
+      "name": "calendar-sync",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/calendar-sync",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/calendar-sync",
+      "source_tree_sha": "8188052d2add06cc716545eeb3f7840daa1a08e1",
+      "file_count": 6
+    },
+    {
+      "name": "canvas-automation",
+      "branch": "ruige",
+      "source_sha": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/canvas-automation",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/canvas-automation",
+      "source_tree_sha": "2dc006c82017ded4a4ee1a0ec7f513ce3f1d2025",
+      "file_count": 5
+    },
+    {
+      "name": "canvas-grade-automation",
+      "branch": "jl_dev",
+      "source_sha": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/canvas-grade-automation",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/canvas-grade-automation",
+      "source_tree_sha": "65a2280bec5b3b6c88d9dc62cceb835bbc87f134",
+      "file_count": 4
+    },
+    {
+      "name": "chat-bot",
+      "branch": "lv",
+      "source_sha": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/chat-bot",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/chat-bot",
+      "source_tree_sha": "e0fc1e5595b8bbb7853f42311f0c660eeacaa84a",
+      "file_count": 6
+    },
+    {
+      "name": "cms-builder",
+      "branch": "gyy",
+      "source_sha": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/cms-builder",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/cms-builder",
+      "source_tree_sha": "abbd774cfe91955c187a6431afb3078768276bb0",
+      "file_count": 7
+    },
+    {
+      "name": "contact-manager",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/contact-manager",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/contact-manager",
+      "source_tree_sha": "6c311e746e8969accf3662b2fd8f95fd8e85ab64",
+      "file_count": 6
+    },
+    {
+      "name": "content-manager",
+      "branch": "yuxuan-dev",
+      "source_sha": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/content-manager",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/content-manager",
+      "source_tree_sha": "c7276b5bf9cc7b4f4f3a34008e4743092b9a6cc0",
+      "file_count": 7
+    },
+    {
+      "name": "content-scheduler",
+      "branch": "gyy",
+      "source_sha": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/content-scheduler",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/content-scheduler",
+      "source_tree_sha": "06c681e7aad5442dac1db176f69db2e6085d2f7b",
+      "file_count": 5
+    },
+    {
+      "name": "coupon-manager",
+      "branch": "fan-dev",
+      "source_sha": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "source_path": "tasks/fan/coupon-manager",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/coupon-manager",
+      "source_tree_sha": "7b3b4e6ec7cef1e2e0ead3704a38a059a2f626b3",
+      "file_count": 4
+    },
+    {
+      "name": "crm-system",
+      "branch": "lueyang-dev",
+      "source_sha": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/crm-system",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/crm-system",
+      "source_tree_sha": "89a0d586fcee909c6a3c8ccd5a47f6a4cbb1588d",
+      "file_count": 7
+    },
+    {
+      "name": "data-analytics",
+      "branch": "ruige",
+      "source_sha": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/data-analytics",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/data-analytics",
+      "source_tree_sha": "9fb92ea6c712090a459aec8fdea2b9f799a56033",
+      "file_count": 5
+    },
+    {
+      "name": "data-validator",
+      "branch": "yuzhen-dev",
+      "source_sha": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/data-validator",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/data-validator",
+      "source_tree_sha": "69c765a9fa3289e24eed9bdf5895e240807bae69",
+      "file_count": 5
+    },
+    {
+      "name": "deal-manager",
+      "branch": "lueyang-dev",
+      "source_sha": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/deal-manager",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/deal-manager",
+      "source_tree_sha": "c0949455bc3a2c967ccff459578f516e14a7256c",
+      "file_count": 5
+    },
+    {
+      "name": "deployment-tool",
+      "branch": "xiaochen_dev",
+      "source_sha": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/deployment-tool",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/deployment-tool",
+      "source_tree_sha": "5737766d90f597c0f294d8a6cab6c5943df2ac69",
+      "file_count": 6
+    },
+    {
+      "name": "email-campaign",
+      "branch": "lueyang-dev",
+      "source_sha": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/email-campaign",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/email-campaign",
+      "source_tree_sha": "a91d175489cb30be226a3b9587703575605c9b61",
+      "file_count": 6
+    },
+    {
+      "name": "email-classification-system",
+      "branch": "jl_dev",
+      "source_sha": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/email-classification-system",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/email-classification-system",
+      "source_tree_sha": "4d89429e2da82144e3b4af8549f783e75f4953a7",
+      "file_count": 6
+    },
+    {
+      "name": "error-tracker",
+      "branch": "xiaochen_dev",
+      "source_sha": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/error-tracker",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/error-tracker",
+      "source_tree_sha": "d3017f64286075704998d1bb6f1e77dd5540a0d2",
+      "file_count": 5
+    },
+    {
+      "name": "expense-tracker",
+      "branch": "ruige",
+      "source_sha": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/expense-tracker",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/expense-tracker",
+      "source_tree_sha": "15f56a003e623f72e6b921a78b262f831ff6a57c",
+      "file_count": 5
+    },
+    {
+      "name": "feedback-collector",
+      "branch": "lv",
+      "source_sha": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/feedback-collector",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/feedback-collector",
+      "source_tree_sha": "8ed97e81d0804c06bf4ed195aa7b4a8915f5b5f0",
+      "file_count": 5
+    },
+    {
+      "name": "file-manager",
+      "branch": "ruige",
+      "source_sha": "a6f3fba387f68acaf6517803e88b40a4a3c52658",
+      "source_path": "tasks/ruige/file-manager",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/file-manager",
+      "source_tree_sha": "284a45e17256ca9b4040396847caa23d846bf2af",
+      "file_count": 4
+    },
+    {
+      "name": "follow-up-reminder",
+      "branch": "lueyang-dev",
+      "source_sha": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/follow-up-reminder",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/follow-up-reminder",
+      "source_tree_sha": "7c2afad5b5a87157954596bb29851ef0dd73f4ab",
+      "file_count": 5
+    },
+    {
+      "name": "form-builder",
+      "branch": "yuzhen-dev",
+      "source_sha": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/form-builder",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/form-builder",
+      "source_tree_sha": "b0d5324baadd1f0d3a9a0c6c200ddfd5d7785e64",
+      "file_count": 3
+    },
+    {
+      "name": "image-processor",
+      "branch": "wenshuo-dev",
+      "source_sha": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "source_path": "tasks/wenshuo/image-processor",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/image-processor",
+      "source_tree_sha": "329ab34e5bb98d29355b436bedc4fd770d6ca236",
+      "file_count": 6
+    },
+    {
+      "name": "invoice-generator",
+      "branch": "yuzhen-dev",
+      "source_sha": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/invoice-generator",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/invoice-generator",
+      "source_tree_sha": "69fd1bdd49e85c238fadc412466f3eca1a725607",
+      "file_count": 4
+    },
+    {
+      "name": "load-balancer",
+      "branch": "zhaochen",
+      "source_sha": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "source_path": "tasks/zhaochen/load-balancer",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/load-balancer",
+      "source_tree_sha": "5059048aaca9e7b80c62653f9ca48604f6017c44",
+      "file_count": 4
+    },
+    {
+      "name": "monitoring-agent",
+      "branch": "xiaochen_dev",
+      "source_sha": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/monitoring-agent",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/monitoring-agent",
+      "source_tree_sha": "cf73734283930b301752ab8566fa25de1a3e383d",
+      "file_count": 5
+    },
+    {
+      "name": "network-analyzer",
+      "branch": "yuxuan-dev",
+      "source_sha": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/network-analyzer",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/network-analyzer",
+      "source_tree_sha": "475c6aace9779634e0d255a29084324fd3991ce7",
+      "file_count": 3
+    },
+    {
+      "name": "order-processor",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/order-processor",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/order-processor",
+      "source_tree_sha": "8c7ebc342a60168bec38fe3d7f9242a0fcd820da",
+      "file_count": 4
+    },
+    {
+      "name": "payment-processor",
+      "branch": "yuzhen-dev",
+      "source_sha": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/payment-processor",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/payment-processor",
+      "source_tree_sha": "256505b74b70546965e95a57dabdd3c319b71332",
+      "file_count": 5
+    },
+    {
+      "name": "pdf-report-generator",
+      "branch": "jl_dev",
+      "source_sha": "4e2b63f5dafce88b60886ed6e6af7bd9a8966296",
+      "source_path": "tasks/jl/pdf-report-generator",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/pdf-report-generator",
+      "source_tree_sha": "b22972571d7fde6858d57e673c1311d98aac9d29",
+      "file_count": 6
+    },
+    {
+      "name": "permission-manager",
+      "branch": "yuzhen-dev",
+      "source_sha": "c68265dafe0a0eccc6e183ff96d1a3e5591a3d8b",
+      "source_path": "tasks/yuzhen/permission-manager",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/permission-manager",
+      "source_tree_sha": "4792e35e463a77a293db4c1c12e87bca94e20243",
+      "file_count": 5
+    },
+    {
+      "name": "personalization-service",
+      "branch": "lv",
+      "source_sha": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/personalization-service",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/personalization-service",
+      "source_tree_sha": "a103316caee2cc8f8963c2031078ef77cf1dfef2",
+      "file_count": 4
+    },
+    {
+      "name": "price-tracker",
+      "branch": "fan-dev",
+      "source_sha": "8b90f34538e4e106eba103265efaa9a456be498c",
+      "source_path": "tasks/fan/price-tracker",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/price-tracker",
+      "source_tree_sha": "709f2e592b56aa2303902434c4a44bc1332eb260",
+      "file_count": 4
+    },
+    {
+      "name": "product-catalog",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/product-catalog",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/product-catalog",
+      "source_tree_sha": "883159e418369a41fabe37489fc8512cfae7cdc5",
+      "file_count": 6
+    },
+    {
+      "name": "qr-generator",
+      "branch": "junxian_dev",
+      "source_sha": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "source_path": "tasks/junxian/qr-generator",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/qr-generator",
+      "source_tree_sha": "de71eaf92be212bbdbbaa74b459dddb0b80cca4e",
+      "file_count": 6
+    },
+    {
+      "name": "reminder-service",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/reminder-service",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/reminder-service",
+      "source_tree_sha": "805567f87e26f4ce2a8766fc10bcbe5530d186a2",
+      "file_count": 4
+    },
+    {
+      "name": "sales-pipeline",
+      "branch": "lueyang-dev",
+      "source_sha": "bf8b9a1d25edd81b158db0bb7f49d8624348e74d",
+      "source_path": "tasks/lueyang/sales-pipeline",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/sales-pipeline",
+      "source_tree_sha": "52a4c35e2a8195644f53400ead27a84c681eb524",
+      "file_count": 3
+    },
+    {
+      "name": "search-engine",
+      "branch": "wenshuo-dev",
+      "source_sha": "d11080ed8d65fb72eb32d9353cb20844b593f9e8",
+      "source_path": "tasks/wenshuo/search-engine",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/search-engine",
+      "source_tree_sha": "ffad5b8e695aa5fdd31f6a8a79ea8fd6472b9e87",
+      "file_count": 7
+    },
+    {
+      "name": "security-scanner",
+      "branch": "xiaochen_dev",
+      "source_sha": "20bfc73490dcf4029b92123b6055e076b7eb5dfa",
+      "source_path": "tasks/xiaochen/security-scanner",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/security-scanner",
+      "source_tree_sha": "46c0b6355441b555de5e8a50988f8efc5ad6f37c",
+      "file_count": 5
+    },
+    {
+      "name": "sentiment-analyzer",
+      "branch": "lv",
+      "source_sha": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/sentiment-analyzer",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/sentiment-analyzer",
+      "source_tree_sha": "92105a3ce2b4e5a800d1f503ab5b8a5f0b8cdf0b",
+      "file_count": 4
+    },
+    {
+      "name": "shipment-tracker",
+      "branch": "junteng_dev",
+      "source_sha": "4ab0c5415824d799c3457a26482f9b794c7e9e93",
+      "source_path": "tasks/junteng/shipment-tracker",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/shipment-tracker",
+      "source_tree_sha": "35ac4e7e2f0da5400f3a1cd73bf64122998b8eb8",
+      "file_count": 3
+    },
+    {
+      "name": "social-publisher",
+      "branch": "gyy",
+      "source_sha": "9612ffff37072726292c77df0f4c6db2f8df1bbb",
+      "source_path": "tasks/gyy/social-publisher",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/social-publisher",
+      "source_tree_sha": "95fd70586fdcce46ca7fb714d9340df175b8a74a",
+      "file_count": 5
+    },
+    {
+      "name": "subtitle-generator",
+      "branch": "haoze",
+      "source_sha": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "source_path": "tasks/haoze/subtitle-generator",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/subtitle-generator",
+      "source_tree_sha": "eac4b09305441c3c62bac6bf600ce271f2bef7f0",
+      "file_count": 6
+    },
+    {
+      "name": "task-scheduler",
+      "branch": "yuxuan-dev",
+      "source_sha": "e82c8295f9506ced6862ab7f39048a731b48beb4",
+      "source_path": "tasks/yuxuan/task-scheduler",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/task-scheduler",
+      "source_tree_sha": "ecf519163efd7a2abd5696e5d6e9ccc00f06b93e",
+      "file_count": 3
+    },
+    {
+      "name": "template-engine",
+      "branch": "zhaochen",
+      "source_sha": "b5f9cc4f79bb9218e40c0293ab9ec4e90352a626",
+      "source_path": "tasks/zhaochen/template-engine",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/template-engine",
+      "source_tree_sha": "3a70b017b72635110e7f8d28171d711412a14e69",
+      "file_count": 3
+    },
+    {
+      "name": "translation-api",
+      "branch": "junxian_dev",
+      "source_sha": "96bbc11b6fc701d07d961aaf070c434fccd1794f",
+      "source_path": "tasks/junxian/translation-api",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/translation-api",
+      "source_tree_sha": "1cbe22d6bb2aceb9125f214b05aafa69058dbb29",
+      "file_count": 5
+    },
+    {
+      "name": "video-trimmer",
+      "branch": "haoze",
+      "source_sha": "e0072cf979548c56984072cd76f529c7beea59b2",
+      "source_path": "tasks/haoze/video-trimmer",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/video-trimmer",
+      "source_tree_sha": "a647334048bce7497caaee59f65aca1b3a6ef4a1",
+      "file_count": 4
+    },
+    {
+      "name": "voice-processor",
+      "branch": "lv",
+      "source_sha": "0be3288e0fd4ae1f241d3ce9cc1c864ae2606d37",
+      "source_path": "tasks/lv/voice-processor",
+      "selection": "previously implemented in Task Tracker",
+      "destination_path": "tasks/finalpool/voice-processor",
+      "source_tree_sha": "2f2e2d00b462a31ed1dce23ecbae8d7eb3fc29a8",
+      "file_count": 5
+    }
+  ]
+}
